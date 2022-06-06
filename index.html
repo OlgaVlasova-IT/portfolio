@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.84.0">
+  <title>Portfolio</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arsenal&display=swap" rel="stylesheet">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arsenal&family=Xanh+Mono:ital@1&display=swap" rel="stylesheet">
+
+  <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+
+  <!-- header -->
+  <header class="show-on-scroll">
+    <nav class="navbar navbar-dark justify-content-center  navbar-expand-sm bg-dark">
+      <div class="container-fluid ">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
+          <ul class="navbar-nav  ">
+            <li class="nav-item ">
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link active fs-5" style="color: #F05454;" href="#animation">Home</a>
+            </li>
+            <li class="nav-item mx-3 ">
+              <a class="nav-link active fs-5 " style="color: #F05454;" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown mx-3">
+              <a class="nav-link  active fs-5" style="color: #F05454;" href="#projects">Projects</a>
+
+            </li>
+
+            <li class="nav-item mx-3 ">
+              <a class="nav-link active fs-5" style="color: #F05454" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link active fs-5" style="color: #F05454;" href="#contact">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="album py-1  bg-my-light2">
+        <div class=" mx-3 d-flex flex-column justify-content-center align-items-center">
+
+          <div class="mx-3  my-3 d-flex flex-column justify-content-center align-items-center">
+            <div class="d-flex justify-content-center">
+
+              <img class="border-radius mx-5" id="me"
+                src="/images/me5_square.jpg"
+                alt="smiling woman photo" width="150px" height="150px">
+            </div>
+            <div class="col-md-7 order-md-2">
+              <p class="lead text-center" id="greeting"> My name is Olga. I am a web-developer. </p>
+
+              <p id="textAbout">
+
+                Coding has been my passion since my first programming course at University. However, I worked as a
+                software
+                tester for some time. About a year ago, I found myself in web design/development. My strong photography
+                and
+                engineering background helps me create beautifully designed, intuitive, functional websites and apps.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="d-flex justify-content-center ">
+          <a href="#contact"><button type="button" id="btnContact" class="btn btn-lg  btn-contact  ">Contact
+              me</button></a>
+        </div>
+
+      </div>
+    </section>
+
+    <!--Projects section-->
+    <section id="projects">
+      <div class="album py-3 bg-my-light2">
+        <div class="container">
+          <h2 class="pb-2  border-bottom-color1 text-center my-2">Projects</h2>
+
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <!--1 block starts-->
+            <div class="col rounded-corners bg-my-light2 ">
+              <div class="card   card-border rounded-corners  bg-my-light2 inline-photo show-on-scroll ">
+
+                <h4 class="card-title text-center my-3 bg-my-light2">Magic Game</h4>
+                <div class="rounded-corners bg-my-light2" width="100%" height="225">
+                  <img class=" rounded-corners "
+                    src="https://cdn.glitch.me/18e98e43-85c7-4e14-a398-986bb3d7ec12%2FMagic%20game.jpg?v=1635692584624"
+                    alt="meditation app photo" width="100%" height="225">
+                </div>
+
+                <div class="card-body rounded-corners-bottom text-center">
+
+                  <p class="card-text"> Follow the steps and app will guess your birthday!</p>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="btn-group ">
+                      <a href="https://guess-your-birthday.glitch.me"><button type="button"
+                          class="btn btn-lg  btn-hover btn-text">View</button></a>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--1 block ends-->
+            <!--2 block starts-->
+
+            <div class="col no-border bg-my-light2 ">
+              <div class="card   card-border rounded-corners bg-my-light2 inline-photo show-on-scroll ">
+                <h4 class="card-title text-center my-3 ">Timer</h4>
+                <div class="rounded-corners " width="100%" height="225">
+                  <img class=" rounded-corners " id="timerPic"
+                    src="https://cdn.glitch.me/18e98e43-85c7-4e14-a398-986bb3d7ec12%2Ftimer.jpg?v=1635692584266"
+                    alt="photo of the Timer app" width="100%" height="225">
+                </div>
+
+                <div class="card-body rounded-corners   text-center bg-my-light2">
+
+                  <p class="card-text"> Stylish futuristic app with background animation. </p>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="btn-group">
+                      <a href="https://timer-animated.glitch.me"><button type="button"
+                          class="btn btn-lg  btn-hover btn-text">View</button></a>
+                      <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--2 block ends-->
+            <!--3 block starts-->
+
+            <div class="col no-border bg-my-light2">
+              <div class="card   card-border rounded-corners  bg-my-light2  inline-photo show-on-scroll">
+
+                <h4 class="card-title text-center my-3">Meditation app</h5>
+                  <div class="rounded-corners bg-my-light2" width="100%" height="225">
+                    <img class="rounded-corners "
+                      src="https://cdn.glitch.me/18e98e43-85c7-4e14-a398-986bb3d7ec12%2Fmeditation.jpg?v=1635692584244"
+                      alt="meditation app photo" width="100%" height="225">
+                  </div>
+
+                  <div class="card-body rounded-corners-bottom text-center bg-my-light2">
+
+                    <p class="card-text"> Relax and meditate with this animated application</p>
+                    <div class="d-flex justify-content-center align-items-center ">
+                      <div class="btn-group">
+                        <a href="https://meditate-relax.glitch.me"><button type="button"
+                            class="btn btn-lg  btn-hover btn-text ">View</button></a>
+
+                      </div>
+
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <!--3 block ends-->
+
+            <!--4 block starts-->
+            <div class="col no-border bg-my-light2 ">
+              <div class="card  card-border rounded-corners bg-my-light2 inline-photo show-on-scroll ">
+
+                <h4 class="card-title text-center my-3">Weather app</h5>
+                  <div class="rounded-corners bg-my-light2" width="100%" height="225">
+                    <img class="rounded-corners "
+                      src="https://cdn.glitch.me/18e98e43-85c7-4e14-a398-986bb3d7ec12%2Fweather.jpg?v=1635692584417"
+                      alt="weather application photo" width="100%" height="225">
+                  </div>
+
+                  <div class="card-body rounded-corners-bottom text-center">
+
+                    <p class="card-text"> Real-time weather application</p>
+                    <div class="d-flex justify-content-center align-items-center">
+                      <div class="btn-group">
+                        <a href="https://weather-forecast-ov.glitch.me"><button type="button"
+                            class="btn btn-lg  btn-hover btn-text">View</button></a>
+
+                      </div>
+
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <!--4 block ends-->
+
+            <!--5 block starts-->
+
+            <div class="col no-border bg-my-light2">
+              <div class="card  card-border rounded-corners bg-my-light2  inline-photo show-on-scroll">
+
+                <h4 class="card-title text-center my-3">Budget calculator</h4>
+                </h5>
+                <div class="rounded-corners bg-my-light2 " width="100%" height="225">
+                  <img class=" rounded-corners "
+                    src="https://cdn.glitch.me/18e98e43-85c7-4e14-a398-986bb3d7ec12%2Fbudget.jpg?v=1635692584854"
+                    alt="weather application photo" width="100%" height="225">
+                </div>
+
+                <div class="card-body rounded-corners-bottom text-center bg-my-light2 ">
+
+                  <p class="card-text">Plan your family budget!</p>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="btn-group">
+                      <a href="https://budget-wont-balance-itself.glitch.me"><button type="button"
+                          class="btn btn-lg  btn-hover btn-text ">View</button></a>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--5 block ends-->
+
+            <!--6 block starts-->
+            <div class="col no-border bg-my-light2">
+              <div class="card card-border rounded-corners bg-my-light2 inline-photo show-on-scroll ">
+
+                <h4 class="card-title text-center my-3">Coronavirus game</h4>
+                </h5>
+                <div class="rounded-corners bg-my-light2" width="100%" height="225">
+                  <img class=" rounded-corners "
+                    src="https://cdn.glitch.me/18e98e43-85c7-4e14-a398-986bb3d7ec12%2FCorona%20game.jpg?v=1635692584204"
+                    alt="weather application photo" width="100%" height="225">
+                </div>
+
+                <div class="card-body rounded-corners-bottom text-center bg-my-light2">
+
+                  <p class="card-text">Pandemic game</p>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="btn-group">
+                      <a href="https://coronavirus-game.glitch.me"><button type="button"
+                          class="btn btn-lg  btn-hover btn-text ">View</button></a>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--6 block ends-->
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-my-light2" id="skills">
+      <div class="container px-4 py-3" id="icon-grid">
+        <h2 class="pb-2 border-bottom-color1 text-center">Skills</h2>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 py-5 inline-photo show-on-scroll "
+          id="html">
+          <div class="col d-flex flex-column align-items-center " id="animate-skill">
+            <h4 class="fw-bold me-3">HTML5</h4>
+            <i class="fab fa-html5 red-color icon-size"></i>
+
+          </div>
+
+
+          <div class="col d-flex flex-column align-items-center ">
+            <h4 class="fw-bold me-3">CSS3</h4>
+            <i class="fab fa-css3-alt red-color icon-size"></i>
+
+          </div>
+          <div class="col d-flex flex-column align-items-center ">
+            <h4 class="fw-bold me-3">Figma</h4>
+            <i class="fab fa-figma red-color icon-size"></i>
+
+
+          </div>
+
+          <div class="col d-flex flex-column align-items-center">
+            <h4 class="fw-bold me-3">Bootstrap5</h4>
+            <i class="fab fa-bootstrap red-color icon-size"></i>
+
+          </div>
+
+          <div class="col d-flex flex-column align-items-center">
+            <h4 class="fw-bold me-3">JavaScript</h4>
+            <i class="fab fa-js-square red-color icon-size"></i>
+
+          </div>
+
+
+
+          <div class="col d-flex flex-column align-items-center">
+            <h4 class="fw-bold me-3">React</h4>
+            <i class="fab fa-react red-color icon-size "></i>
+
+          </div>
+
+
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="bg-my-light2" id="contact">
+      <div class="album px-4 py-3">
+        <div class="container ">
+
+          <h2 class="pb-2 border-bottom-color1 text-center">Contact me</h2>
+          <div class="d-flex flex-column justify-content-center align-items-center mb-3">
+            <div class=" contForm ">
+              <form action="https://formspree.io/f/mgerbdep" method="POST">
+
+                <div class="d-flex flex-column justify-content-center align-items-center mb-3">
+                  <label for="name" class="label  " id='lbName'>Name</label>
+                  <input type="text" class="textInput" id="name" placeholder="Enter your name" name="name"
+                    maxlength="40">
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center mb-3">
+                  <label for="email" class="form-label">E-mail address</label>
+                  <input type="email" class="textInput  " id="email" placeholder="email@example.com" name="email"
+                    maxlength="40">
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                  <textarea class="textArea " id="exampleFormControlTextarea1" rows="4" cols="40"
+                    name="textarea"></textarea>
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center mb-3">
+                  <button type="submit" class="btn btn-md  btn-hover btn-text" id="sbtBtn">Send</button>
+                </div>
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="text-muted py-3 bg-dark font-color">
+    <div class="container font-color">
+      <p class="float-end mb-1">
+        <a href="#animation" class="red-color">Back to top</a>
+      </p>
+      <p class="mb-1 red-color">©Olga Vlasova - All Rights Reserved </p>
+
+
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  <script src="https://kit.fontawesome.com/74f74fd150.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
